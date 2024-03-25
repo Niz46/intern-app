@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.intern-dashboard {
+  max-width: 95%;
+  margin: auto;
+  padding: 35px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.header h2 {
+  font-size: 35px;
+  color: #007bff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  outline: none;
+}
+
+.actions button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.intern-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
+  transition: all 1s ease-in-out;
+}
+
+.intern-card:last-child {
+  margin-bottom: 0px;
+}
+.intern-card:hover {
+  background: #007bff;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.intern-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.intern-info {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
