@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/intern-app/static/css/main.cddfba29.css",
+    "main.js": "/intern-app/static/js/main.3e414c98.js",
+    "index.html": "/intern-app/index.html",
+    "main.cddfba29.css.map": "/intern-app/static/css/main.cddfba29.css.map",
+    "main.3e414c98.js.map": "/intern-app/static/js/main.3e414c98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cddfba29.css",
+    "static/js/main.3e414c98.js"
+  ]
+}
